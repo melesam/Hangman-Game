@@ -231,8 +231,8 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
     
 
 
-/*@media (max-width: 750px){
-    #introPage, #singlePage, #multiPage, #videoPage{
+@media (max-width: 750px){
+    	#introPage, #singlePage{
         width: 500px;
         height: 500px;
     	}
@@ -303,6 +303,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             width: 470px;
             margin: 0 auto;
             padding: 0px;
+ /*added*/  border-bottom: solid white;
         }
         #letter1, #letter2, #letter3, #letter4, #letter5, #letter6, #letter7, #letter8, #letter9, #letter10, #letter11, #letter12, #letter13, #letter14, #letter15, #letter16, #letter17, #letter18, #letter19, #letter20, #letter21, #letter22, #letter23, #letter24, #letter25, #letter26, #letter27, #letter28, #letter29, #letter30, #letter31, #letter32, #letter33, #letter34, #letter35, #letter36, #letter37, #letter38, #letter39, #letter40, #letter41, #letter42, #letter43, #letter44, #letter45, #letter46, #letter47, #letter48, #letter49, #letter50, #letter51, #letter52, #letter53, #letter54, #letter55, #letter56, #letter57, #letter58, #letter59, #letter60, #letter61, #letter62, #letter63, #letter64, #letter65, #letter66, #letter67, #letter68, #letter69, #letter70, #letter71, #letter72, #letter73, #letter74, #letter75, #letter76, #letter77, #letter78, #letter79, #letter80, #letter81, #letter82, #letter83, #letter84, #letter85, #letter86, #letter87, #letter88, #letter89, #letter90, #letter91, #letter92, #letter93, #letter94, #letter95, #letter96, #letter97, #letter98, #letter99, #letter100{
             width: 28px;
@@ -314,11 +315,13 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             width: 28px;
             height: 45px;
             margin-right: 3px;
+  /*added*/ border-bottom: solid white;
             color: orange;
         }
 
         #hangman{
             margin: 20px auto 0 auto;
+        
         }
         #letterBank{
             width: 430px;
@@ -344,7 +347,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             visibility: hidden;
             line-height: 70px;
         }
-        #again, #home, #home1{
+        #again, #home{
             display: none;
             width: 50%;
             height: 65px;
@@ -357,6 +360,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             border-radius: 25px;
             cursor: pointer;
         }
+
         #home{
             margin-top: 0px;
         }
@@ -365,7 +369,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
 
 
 @media (max-width: 450px){
-    #introPage, #singlePage{
+    	#introPage, #singlePage{
         height: 100%;
         width: 100%;
         min-width: 365px;
@@ -457,7 +461,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             margin-top: 5px;
             height: 40px;
         }
-        #again, #home, #home1{
+        #again, #home{
             width: 250px;
             height: 45px;
             margin: 10px auto;
@@ -466,5 +470,5 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
         }
         
 }
-*/
+
 

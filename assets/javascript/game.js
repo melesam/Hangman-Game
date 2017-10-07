@@ -5,7 +5,7 @@ var numWrong = 0;
 var numRight = 0;
 var phraseLength = 0;
 var numChar = 0;
-var lyrics = ["All the way turnt up", "Now, walk it out", "Work, work, work, work, work", "Cause I'm out here grindin", "It's goin' down", "Cookin' up dope with a Uzi", "Raindrops, drop tops", "These expensive, these is red bottoms", "I don't dance now, I make money moves", "Gotta main bitch and gotta mistress", "That girl is a real crowd pleaser", "If you ain't a ho, get up out my trap house", "I got broads in Atlanta", "Twistin' dope, lean, and the Fanta", "She my trap queen let her hit the bando", "I just left the mall, I'm getting fly with my baby yeahh", "We just selling dope, talking matching lambos", "Brought out the pink Lamborghini just to race with Chyna", "Rake it up", "Versace, Versace, I love it, Versace the top of my Audi", "That's a vibe, yeah", "Sip me some syrup"];
+var lyrics = ["All the way turnt up", "Now, walk it out", "Work, work, work, work, work", "Cause I'm out here grindin", "It's goin' down", "Cookin' up dope with a Uzi", "Raindrops, drop tops", "These expensive, these is red bottoms", "I don't dance now, I make money moves", "Gotta main chic and gotta mistress", "That girl is a real crowd pleaser", "If you ain't a ho, get up out my trap house", "I got broads in Atlanta", "Twistin' dope, lean, and the Fanta", "She my trap queen let her hit the bando", "I just left the mall, I'm getting fly with my baby yeahh", "We just selling dope, talking matching lambos", "Brought out the pink Lamborghini just to race with Chyna", "Rake it up", "Versace, Versace, I love it, Versace the top of my Audi", "That's a vibe, yeah", "Sip me some syrup"];
 
 
 function sp(){
@@ -320,7 +320,7 @@ function win(){
         document.getElementById('letterBank').style.display = "none";
         again.style.display = "block";
         document.getElementById('home').style.display = "block";
-        document.getElementById('vidSent').style.display = "block";
+        
 
         if(ul1 == 50){
             results.style.lineHeight = "70px";
@@ -343,7 +343,7 @@ function win(){
         document.getElementById('letterBank').style.display = "none";
         again.style.display = "block";
         document.getElementById('home').style.display = "block";
-        document.getElementById('vidSent').style.display = "block";
+        
         if(ul1 == 50){
             again.style.marginTop = "75px";
             results.style.marginTop = "75px";
