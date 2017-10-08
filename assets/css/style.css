@@ -231,7 +231,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
     
 
 
-@media (max-width: 750px){
+@media (max-width: 768px){
     	#introPage, #singlePage{
         width: 500px;
         height: 500px;
@@ -265,7 +265,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
     	}
         #singlePage p{
             font-size: 30px;
-            margin: 0px auto 20px auto;
+            margin: 40px auto 20px auto;
         }
         #categoryHolder{
             height: 180px;
@@ -282,8 +282,10 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
         
         
         #lyrics{
-            font-size: 35px;
-            line-height: 80px;
+            font-size: 20px;
+            line-height: 40px;
+            width: 100px
+            height: 45px;
         }
         
         
@@ -321,8 +323,11 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
 
         #hangman{
             margin: 20px auto 0 auto;
+            width: 250px;
+            height: 250px;
         
         }
+
         #letterBank{
             width: 430px;
             height: 145px;
@@ -330,6 +335,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             font-size: 35px;
             line-height: 45px;
         }
+
         #letterBank div{
             width: 44px;
             height: 44px;
@@ -368,7 +374,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
 
 
 
-@media (max-width: 450px){
+@media (max-width: 480px){
     	#introPage, #singlePage{
         height: 100%;
         width: 100%;
@@ -379,7 +385,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             width: 100%;
         }
         #introText p{
-            font-size: 18px;
+            font-size: 55px;
         }
         #buttonContainer{
             width: 90%;
@@ -394,7 +400,11 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
         
         
         #homeHangman{
-            margin: 70px auto 0 auto;
+            margin: 70px auto 20px auto;
+            width: 200px;
+            height: 200px;	
+
+
         }
     	#singlePage{
         height: 320px;
@@ -405,7 +415,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             height: 180px;
         }  
         #singlePage p{
-            font-size: 25px;
+            font-size: 40px;
         }
       
         
@@ -418,14 +428,17 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
     	#gamePage{
         min-width: 365px;
     	}
+
         #categoryName{
-            font-size: 30px;
+            font-size: 35px;
         }    
+
         #wordWrap{
             width: 320px;
             margin-top: 10px;
             padding: 0px;
         }
+
         #letter1, #letter2, #letter3, #letter4, #letter5, #letter6, #letter7, #letter8, #letter9, #letter10, #letter11, #letter12, #letter13, #letter14, #letter15, #letter16, #letter17, #letter18, #letter19, #letter20, #letter21, #letter22, #letter23, #letter24, #letter25, #letter26, #letter27, #letter28, #letter29, #letter30, #letter31, #letter32, #letter33, #letter34, #letter35, #letter36, #letter37, #letter38, #letter39, #letter40, #letter41, #letter42, #letter43, #letter44, #letter45, #letter46, #letter47, #letter48, #letter49, #letter50, #letter51, #letter52, #letter53, #letter54, #letter55, #letter56, #letter57, #letter58, #letter59, #letter60, #letter61, #letter62, #letter63, #letter64, #letter65, #letter66, #letter67, #letter68, #letter69, #letter70, #letter71, #letter72, #letter73, #letter74, #letter75, #letter76, #letter77, #letter78, #letter79, #letter80, #letter81, #letter82, #letter83, #letter84, #letter85, #letter86, #letter87, #letter88, #letter89, #letter90, #letter91, #letter92, #letter93, #letter94, #letter95, #letter96, #letter97, #letter98, #letter99, #letter100{
             width: 18px;
             height: 30px;
@@ -434,12 +447,14 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             font-size: 18px;
             line-height: 30px;
         }
+
         #underline1, #underline2, #underline3, #underline4, #underline5, #underline6, #underline7, #underline8, #underline9, #underline10, #underline11, #underline12, #underline13, #underline14, #underline15, #underline16, #underline17, #underline18, #underline19, #underline20, #underline21, #underline22, #underline23, #underline24, #underline25, #underline26, #underline27, #underline28, #underline29, #underline30, #underline31, #underline32, #underline33, #underline34, #underline35, #underline36, #underline37, #underline38, #underline39, #underline40, #underline41, #underline42, #underline43, #underline44, #underline45, #underline46, #underline47, #underline48, #underline49, #underline50, #underline51, #underline52, #underline53, #underline54, #underline55, #underline56, #underline57, #underline58, #underline59, #underline60, #underline61, #underline62, #underline63, #underline64, #underline65, #underline66, #underline67, #underline68, #underline69, #underline70, #underline71, #underline72, #underline73, #underline74, #underline75, #underline76, #underline77, #underline78, #underline79, #underline80, #underline81, #underline82, #underline83, #underline84, #underline85, #underline86, #underline87, #underline88, #underline89, #underline90, #underline91, #underline92, #underline93, #underline94, #underline95, #underline96, #underline97, #underline98, #underline99, #underline100{
-            width: 18px;
-            height: 30px;
+            width: 15px;
+            height: 25px;
             margin-right: 3px;
             color: white;
         }
+
         #letterBank{
             width: 310px;
             height: 170px;
@@ -447,8 +462,8 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
             line-height: 40px;
         }
         #letterBank div{
-            width: 41px;
-            height: 40px;
+            width: 36px;
+            height: 36px;
             margin: 0px 3px 3px 0px;
         }
         #letterBank div:active{
@@ -459,7 +474,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
         }
         #results{
             margin-top: 5px;
-            height: 40px;
+            height: 5px;
         }
         #again, #home{
             width: 250px;
