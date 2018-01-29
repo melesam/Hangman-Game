@@ -8,17 +8,19 @@ var numChar = 0;
 var lyrics = ["All the way turnt up", "Now, walk it out", "Work, work, work, work, work", "Cause I'm out here grindin", "It's goin' down", "Cookin' up dope with a Uzi", "Raindrops, drop tops", "These expensive, these is red bottoms", "I don't dance now, I make money moves", "Gotta main chic and gotta mistress", "That girl is a real crowd pleaser", "If you ain't a ho, get up out my trap house", "I got broads in Atlanta", "Twistin' dope, lean, and the Fanta", "She my trap queen let her hit the bando", "I just left the mall, I'm getting fly with my baby yeahh", "We just selling dope, talking matching lambos", "Brought out the pink Lamborghini just to race with Chyna", "Rake it up", "Versace, Versace, I love it, Versace the top of my Audi", "That's a vibe, yeah", "Sip me some syrup"];
 
 
+// initializes the html page. loads the initial state of the app 
 function sp(){
     document.getElementById('introPage').style.display = "none";
     document.getElementById('singlePage').style.display = "block";
 }
 
 
+// selects the option from my array to guess
 function lyric(){
     rand = Math.floor(Math.random()*lyrics.length);
     word = lyrics[rand];
     document.getElementById('singlePage').style.display = "none";
-    document.getElementById('categoryName').innerHTML = "Trap Lyrics";
+    document.getElementById('categoryName').innerHTML = "<h1>Trap Lyrics</h1>";
     hangman();
 }
 
@@ -827,6 +829,63 @@ function hang(){
             ctx.stroke();
     }
 }
+
+
+
+// define all variables needed
+var letters = ["a", b, c, ];
+var guessLetter = [""];
+var wordtoGuess = [""];
+var numofGuesses = 
+var wordBank = [""];
+
+
+
+// choose random word from wordBank
+
+// create wordstoGuess array 
+
+// show the letters grid 
+
+// show the dash grid
+
+
+// onclick of the letter 
+
+// check if the letter exists in the wordtoGuess array
+
+// if exists, push letter into guessLetter array 
+
+// increment the number of guesses by one
+
+// place the current word in the dashed display onscreen at the correct position
+
+
+// if the letter does not exist, push letter into guessLetter array
+
+// increment the number of guesses by one 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
 /*function reset(){
 
