@@ -43,9 +43,8 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
     left: 0;
     margin:10px auto;
 }
-    #introText{
+    .introText{
         width: 850px;
-/*        height: 260px;  */
         margin: 10px auto;
         font-size: 100px;
         font-weight: bold;
@@ -144,7 +143,7 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
     #categoryName{
         width: 100%;
         margin: 20px auto 0px auto;
-        font-size: 75px;
+        font-size: 50px;
     }  
 
     #wordWrap{
@@ -207,8 +206,8 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
     }
 
     #results{
-        margin-top: 5px;
-        height: 70px;
+        margin-top: 5px auto;
+        height: 10px;
         visibility: hidden;
         line-height: 70px;       
     }
@@ -226,6 +225,20 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
         border-radius: 25px;
         cursor: pointer;
         margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    #again{
+        border: 1px solid black;
+        border-radius: 15px;
+        background: #00006c;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        width: 150px;
+        margin: 5px auto;
+        margin-bottom: 20px;
     }
     
     
@@ -236,11 +249,11 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
         width: 500px;
         height: 500px;
     	}
-        #introText{
+        .introText{
             width: 500px;
             height: 85px;
         }
-        #introText p{
+        .introText p{
             font-size: 55px;
             margin: 10px auto;
         }
@@ -382,10 +395,10 @@ body, html, #category, #category1, #lyrics, #introPage, #introText, #sp, #single
         min-width: 365px;
     	}
     
-        #introText{
+        .introText{
             width: 100%;
         }
-        #introText p{
+        .introText p{
             font-size: 55px;
         }
         #buttonContainer{

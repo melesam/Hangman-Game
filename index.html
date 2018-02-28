@@ -10,7 +10,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">    
- 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 	
 </head>
 
@@ -18,7 +18,7 @@
 <body>
 
 	<div id="introPage">
-        <div id="introText">
+        <div class="introText">
 
             <p>The Trap</p>
       
@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <canvas id="homeHangman" width="300px" height="300px"></canvas>
+        <h2 class="introText">HANGMAN</h2>
 
     </div>
 
@@ -387,12 +387,9 @@
         </div>
 
 
-<!--		<div id="again" onClick="reset()">Play again!</div> -->
+		<div id="again" onClick="window.location.reload()">Start Over!</div>
         <div id="home" onClick="window.location.reload()">Main menu</div>
 
-<script type="text/javascript" src="assets/javascript/game.js"></script>
-
-<script>window.onload = draw;</script>
 
 </body>
 </html>
